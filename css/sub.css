@@ -1,0 +1,200 @@
+/* main_hero 시작*/
+.main_hero { width: 100%; height: 1080px; margin: 0 auto; position: relative; background: url(../images/sub_main_hero.png)no-repeat 50% 50% / cover } 
+.main_hero_top_gradient { 
+    width: 100%; height: 456px; position: absolute; z-index: 0; top: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 25.96%, rgba(0, 0, 0, 0.12) 100%);
+}
+.main_hero_btm_gradient {
+    width: 100%; height: 456px; position: absolute; z-index: 0; bottom: 0; 
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0%, rgba(0, 0, 0, 0.00) 74.04%);
+}
+
+header { 
+ width: 100%; height: 100px; 
+ position: absolute; top: 0; left: 0; z-index: 1;
+ } 
+
+.logo { 
+ width: 164px; height: 100px; 
+ position: absolute; top: 0; left: 48px; 
+ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; 
+ } 
+
+.gnb { position: absolute; left: 260px; top: 0; } 
+.gnb ul { display: flex; flex-wrap: wrap; gap: 40px; } 
+.gnb ul li a { display: flex; flex-wrap: wrap; align-items: center; height: 100px; transition: .3s; color: #fff; } 
+ .gnb ul li a:hover { color: #a2d39f; } 
+
+
+.util_menu { 
+    position: absolute; top: 0px; right: 48px; 
+    display: flex; flex-wrap: wrap; gap: 32px; 
+} 
+.util_menu a { height: 100px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; } 
+.util_menu img { width: 20px; height: 20px; } 
+
+.refill_title_wrap {
+    position: absolute; z-index: 1; left: 80px;  bottom: 48px;  color: #fff;
+    display: flex; flex-wrap: wrap; gap: 88px; align-items: center; }
+
+.refill_title {font-family: "minerma"; font-weight: 400; font-size: 204px; letter-spacing:-4.6px;}
+.refill_title_inside_wrap {display: flex; flex-wrap: wrap; flex-direction: column; gap: 18px;}
+
+/* recycle 시작 */
+.recycle {
+    width: 100%; margin: 0 auto; position: relative;
+    padding: 160px 80px; box-sizing: border-box; background: #F7F5F3;
+    display: flex; flex-wrap: wrap;  align-items: center;
+ }
+
+.recycle_bg_line {
+    position: absolute; z-index: 0; left: 0; bottom: 28%;
+    width: 100%; height: 1px; background: #214417; 
+}
+
+.recycle_left_title_wrap {
+    width: calc(100% / 3); padding: 0 30px; box-sizing: border-box; text-align: center; color: #214417;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 4px; 
+}
+
+.recycle_img {
+     width: calc(100% / 3); height: 702px; position: relative; z-index: 9;
+    background: url(../images/recycle_img.png)no-repeat 50% 50% / cover;
+}
+
+.recycle_right_title_wrap {
+    width: calc(100% / 3); padding: 0 30px; box-sizing: border-box; text-align: center; color: #214417;
+}
+.recycle_title {font-family: "minerma"; font-weight: 400; font-size: 186px; letter-spacing:-4px;}
+
+/* reason 시작 */
+.reason {
+    width: 100%; padding: 160px 80px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; gap: 68px; flex-direction: column;
+}
+
+.reason_top_wrap { width: 100%; display: flex; flex-wrap: wrap; }
+.reason_title_wrap {width: 48%;  display: flex; flex-wrap: wrap; gap: 16px; flex-direction: column;
+}
+.reason_img_01 {width: 52%; height: 432px; background: url(../images/reason_img_01.png) no-repeat 50% 50% / cover; }
+
+.reason_btm_wrap {width: 100%; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.reason_btm_box_01 { display: flex; flex-wrap: wrap; gap: 24px; }
+.reason_img_02 {width: 448px; height: 402px; background: url(../images/reason_img_02.png)no-repeat 50% 50% / cover;;}
+.reason_btm_box_02 {display: flex; flex-wrap: wrap; gap: 16px; flex-direction: column;}
+.reason_img_03 {width: 496px; height: 256px; background: url(../images/reason_img_03.png) no-repeat 50% 50% / cover;}
+
+/* refillday 시작 */
+.refillday {
+    width: 100%; padding: 88px 80px; box-sizing: border-box;
+    background: #F7F5F3;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 102px;
+}
+
+.refillday_title_wrap { display: flex; flex-wrap: wrap; flex-direction: column; gap: 6px;
+ text-align: left;}
+
+ .refillday_box_wrap {display: flex; flex-wrap: wrap; justify-content: flex-end;}
+ .refillday_box {
+    width: 276px; height: 404px; padding: 12px 24px 30px 24px; box-sizing: border-box;
+    background: #5B7B61;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 20px;
+}
+.refillday_box {
+    display: flex; flex-wrap: wrap; flex-direction: column; color: #fff;
+    border-right: solid 1px #fff; box-sizing: border-box;
+}
+.refillday_box_title { 
+    font-family: "minerma"; font-weight: 400; font-size: 52px; letter-spacing:-2px; 
+    padding-bottom: 12px; text-align: center; border-bottom: solid 1px #fff; 
+}
+.refillday_box:nth-child(3) .refillday_box_title_inside_wrap {
+    display: flex; flex-direction: column; justify-content: space-between;
+    align-items: flex-start; flex: 1; align-self: stretch; border-right: none;
+}
+
+/* offline 시작*/
+.offline {
+    width: 100%; padding: 320px 0px; box-sizing: border-box;
+    background: url(../images/offline.png)no-repeat 50% 50% / cover;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 100px; 
+    align-items: center; color: #fff;
+}
+.offline .contents_title_xxlarge {
+    border-top: solid 1px #fff; 
+    display: flex; flex-wrap: wrap; flex-direction: column; align-items: flex-start;
+}
+.offline_wrap {width: 1400px; display: flex; flex-wrap: wrap; gap: 100px; justify-content: center;}
+.offline_box {
+    width: 616px; height: 562px; padding: 72px; box-sizing: border-box;
+    border-radius: 24px; border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.10); backdrop-filter: blur(14px);
+    display: flex; flex-wrap: wrap; flex-direction: column; 
+    justify-content: space-between; align-items: flex-start;
+}
+.offline_box_title_wrap {
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 14px;
+}
+.offline_box:nth-child(2) {margin-top: 340px;}
+
+/* online 시작 */
+.online {
+    width: 100%; padding: 160px 0px 160px 80px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 100px; align-items: center;
+    background: #F1EBE4;
+}
+.online_title_wrap { display: flex; flex-wrap: wrap; flex-direction: column; gap: 24px; text-align: center; }
+.online_title_wrap .contents_title_xxlarge { 
+    border-top: solid 1px #000; 
+    display: flex; flex-wrap: wrap; flex-direction: column; align-items: flex-start;
+}
+
+.online_box_wrap {
+    width: 100%; 
+}
+
+.online_box {
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 16px;
+}
+.online_box p{line-height: 130%;}
+.online_box span{ text-decoration-line: line-through; color: #494949;}
+.online_box_img {width: 504px; height: 504px;}
+.online_box_title_wrap { display: flex; flex-wrap: wrap; justify-content: space-between;}
+/* online 끝 */
+
+/* end 시작*/
+.end {
+    width: 100%; padding: 88px 80px; box-sizing: border-box;
+    background: linear-gradient(0deg, #5B7A61 50.96%, #FCF8F4 50.97%);
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 36px; align-items: center;
+    text-align: center; color: #fff;}
+.end_img {
+    width: 91%; height: 320px;
+    background: url(../images/end_img.png)no-repeat 50% 50% / cover;
+}
+
+/* footer 시작 */
+footer {
+    width: 100%; background: #FAF9F9; padding: 36px 80px 56px 80px; box-sizing: border-box;
+     display: flex; flex-wrap: wrap; flex-direction: column; gap: 20px;
+} 
+.footer_top_wrap {
+    width: 100%; padding: 20px 0px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+    border-bottom: solid 1px #AAAAAA; 
+}
+.customer_wrap { display: flex; flex-wrap: wrap; flex-direction: column; gap: 136px; }
+.customer_title_wrap {display: flex; flex-wrap: wrap; flex-direction: column; gap: 8px;}
+.customer_title_wrap .contents_title_medium {font-family: "minerma";font-weight: 400; color: #006839;}
+.customer_title_wrap .contents_article_small_regular {
+    font-family: "minerma";font-weight: 400; line-height: 140%; color: #5A5A5A;
+}
+.support_wrap {display: flex; flex-wrap: wrap; gap: 80px;}
+.support_wrap ul {display: flex; flex-wrap: wrap; flex-direction: column; gap: 4px; align-items: center;}
+.support_wrap ul li:first-child{ 
+    font-size: 16px; font-weight: 600; letter-spacing:-0.6px; line-height: 140%; color: #006839;
+}
+.support_wrap ul li a{color: #5A5A5A;}
+.support_wrap ul li a:hover{color: #006839;}
+.footer_btm_wrap {display: flex; flex-wrap: wrap; flex-direction: column; gap: 4px; color: #006839;}
+.footer_btm_wrap .contents_title_xxsmall {font-family: "minerma"; font-weight: 400;}

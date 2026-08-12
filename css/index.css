@@ -1,0 +1,268 @@
+/* main_hero 시작*/
+.main_hero { width: 100%; margin: 0 auto; position: relative;  } 
+.main_video { width: 100%; } 
+.main_hero_gradient { 
+    width: 100%; height: 456px; position: absolute; top: 0; left: 0; z-index: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 30%, rgba(0, 0, 0, 0.50) 100%); 
+}
+
+header { 
+ width: 100%; height: 100px; 
+ position: absolute; top: 0; left: 0; 
+ } 
+
+.logo { 
+ width: 164px; height: 100px; 
+ position: absolute; top: 0; left: 48px; 
+ display: flex; flex-wrap: wrap; align-items: center; justify-content: center; 
+ } 
+
+.gnb { position: absolute; left: 260px; top: 0; } 
+.gnb ul { display: flex; flex-wrap: wrap; gap: 40px; } 
+.gnb ul li a { display: flex; flex-wrap: wrap; align-items: center; height: 100px; transition: .3s; color: #fff; } 
+ .gnb ul li a:hover { color: #a2d39f; } 
+
+
+.util_menu { 
+    position: absolute; top: 0px; right: 48px; 
+    display: flex; flex-wrap: wrap; gap: 32px; 
+} 
+.util_menu a { height: 100px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; } 
+.util_menu img { width: 20px; height: 20px; } 
+
+
+.main_hero .contents_title_xlarge_en { 
+    width: 100%; position: absolute; top: 50%; left: 0; 
+    text-align: center; color: #fff; text-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+} 
+
+
+/* best 시작*/
+.best { 
+    width: 100%; background: #FBFBFB;
+    padding: 160px 80px 180px 80px; box-sizing: border-box;
+}
+.contents_title_wrap { 
+    margin-bottom: 36px; display: flex; flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.best_wrap {width: 100%; display: flex; flex-wrap: wrap; gap: 42px;}
+
+.best_img {
+    flex: 0 0 458px;
+    width: 458px; 
+    background: url(../images/best_img.png) no-repeat 50% 50% / cover;
+}
+
+.best_carousel_area {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots { display: none; }
+
+.best_box {
+    display: flex; flex-direction: column; gap: 24px;
+}
+.best_box_img {width: 100%; aspect-ratio: 392 / 498;}
+.best_box_img img { width: 100%; height: 100%; object-fit: cover; }
+
+.rating {
+    display: flex; flex-wrap: wrap; gap:4px;
+    color: #A0A0A0; align-items: center;
+}
+.rating img{width: 10px !important; height: 10px;}
+.contents_box_info {display: flex; flex-direction: column; gap: 12px;}
+.box_title_wrap {display: flex; flex-direction: column; gap: 4px}
+
+/* 커스텀 진행 바 인디케이터 */
+.scroll_indicator {
+    width: 100%;
+    height: 2px;
+    background: #E0E0E0;
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll_indicator_thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 33.333%;
+    height: 2px;
+
+    background: #191919;
+
+    transform: translateX(0);
+
+    transition:
+        width 0.35s ease,
+        transform 0.35s ease;
+}
+
+/* product 시작*/
+.product { width: 100%; height: 668px; display: flex; flex-wrap: wrap; justify-content: space-between; } 
+.product_thum { width: 57%; height: 100%; background: url(../images/product_thum.png) no-repeat 50% 50% / cover; } 
+.product_info { 
+ width: 43%; height: 100%; padding: 88px 108px; box-sizing: border-box; 
+ display: flex; flex-wrap: wrap; flex-direction: column; align-items: flex-start; gap: 40px; 
+ } 
+.product_title_wrap { display: flex; flex-wrap: wrap; flex-direction: column; gap: 32px; } 
+.product_title_wrap .contents_title_xsmall { font-weight: 300; line-height: 150%; color: #626262; } 
+
+/* hair 시작 */
+.hair {
+    width: 100%; background: #FBFBFB;
+    padding: 160px 80px 180px 80px; box-sizing: border-box;
+}
+
+.hair_box_wrap {
+    width: 100%;
+    display: block;
+}
+
+.hair_box {
+    display: flex; flex-direction: column; gap: 24px;
+}
+.hair_box_img { width: 432px; height: 464px; }
+
+/* 캐러셀 하단 진행률 바 */
+.hair_scrollbar {
+    width: 100%;
+    height: 2px;
+    background: #E5E5E5;
+    position: relative;
+    margin-top: 40px;
+}
+.hair_scrollbar_thumb {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 2px;
+    background: #333333;
+    transition: left 0.25s ease, width 0.25s ease;
+}
+
+
+/* new 시작 */
+.new { 
+ width: 100%; position: relative; 
+ box-sizing: border-box; background: #626262; 
+ } 
+.new_video { width: 100%; } 
+.new_wrap { 
+ width: 100%; 
+ position: absolute; bottom: 88px; left: 0; 
+ display: flex; flex-wrap: wrap; align-items: center; flex-direction: column; gap: 40px; 
+ color: #fff; text-align: center; 
+ } 
+.new_title_wrap { display: flex; flex-wrap: wrap; flex-direction: column; gap:12px; justify-content: center; } 
+
+/* origin 시작 */
+.origin {
+    width: 100%; padding: 180px 0px 180px 80px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 56px;
+}
+
+.origin_box_wrap {
+    width: 100%;
+    display: block;
+}
+
+.origin_box {
+    text-align: center;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 24px;
+    align-items: center;
+}
+.origin_box_title_wrap {display: flex; flex-wrap: wrap; flex-direction: column; gap: 4px;}
+.origin_box_title_wrap .contents_article_small_regular{color: #5E5E5E;}
+.origin_box_img {border-radius: 700px;}
+
+/* 캐러셀 인디케이터: 폭 1760px 고정, origin_box_wrap과 세로 gap 104px */
+.origin_scrollbar {
+    width: 100%;
+    height: 2px;
+    background: #E0E0E0;
+    position: relative;
+    overflow: hidden;
+}
+
+.origin_scrollbar_thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 33.333%;
+    height: 2px;
+
+    background: #191919;
+
+    transform: translateX(0);
+
+    transition:
+        width 0.35s ease,
+        transform 0.35s ease;
+}
+
+/* signiture 시작*/
+.signiture {
+    width: 100%; text-align: center; background: #F7F7F7;
+    padding: 96px 0px 0px 0px; box-sizing: border-box;  
+    display: flex; flex-wrap: wrap; flex-direction: column; align-items: center;  gap: 74px;
+}
+.signiture_contents {display: flex; flex-wrap: wrap; flex-direction: column; align-items: center; gap: 34px; }
+.signiture_contents .contents_title_medium {font-family: "minerma"; font-weight: 400;}
+.signiture_title_wrap {display: flex; flex-wrap: wrap; flex-direction: column; gap: 12px; }
+
+/* signiture_desc 시작*/
+.signiture_desc { 
+    width: 100%; background: #E4DDD3; padding: 120px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; flex-direction: column; gap: 24px; text-align: center;
+}
+.signiture_desc .contents_title_xxlarge{ line-height: 100%;}
+
+/* store 시작*/
+.store {width: 100%; display: flex; flex-wrap: wrap; }
+.store_box {
+    width: 50%; height: 960px; 
+    padding: 80px; box-sizing: border-box; color: #fff;
+    display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between;
+}
+.store_box:first-child { background: url(../images/store_left.png)no-repeat 50% 50% / cover; }
+.store_box:nth-child(2) { background: url(../images/store_right.png)no-repeat 50% 50% / cover; }
+
+.store_title_wrap {display: flex; flex-wrap: wrap; flex-direction: column;gap: 8px;}
+.store_top_title_wrap {display: flex; flex-wrap: wrap; gap: 20px; align-items: center;}
+.english_title_wrap {display: flex; flex-wrap: wrap; gap: 16px; align-items: center;}
+
+/* footer 시작 */
+footer {
+    width: 100%; background: #FAF9F9; padding: 36px 80px 56px 80px; box-sizing: border-box;
+     display: flex; flex-wrap: wrap; flex-direction: column; gap: 20px;
+} 
+.footer_top_wrap {
+    width: 100%; padding: 20px 0px; box-sizing: border-box;
+    display: flex; flex-wrap: wrap; justify-content: space-between;
+    border-bottom: solid 1px #AAAAAA; 
+}
+.customer_wrap { display: flex; flex-wrap: wrap; flex-direction: column; gap: 136px; }
+.customer_title_wrap {display: flex; flex-wrap: wrap; flex-direction: column; gap: 8px;}
+.customer_title_wrap .contents_title_medium {font-family: "minerma";font-weight: 400; color: #006839;}
+.customer_title_wrap .contents_article_small_regular {
+    font-family: "minerma";font-weight: 400; line-height: 140%; color: #5A5A5A;
+}
+.support_wrap {display: flex; flex-wrap: wrap; gap: 80px;}
+.support_wrap ul {display: flex; flex-wrap: wrap; flex-direction: column; gap: 4px; align-items: center;}
+.support_wrap ul li:first-child{ 
+    font-size: 16px; font-weight: 600; letter-spacing:-0.6px; line-height: 140%; color: #006839;
+}
+.support_wrap ul li a{color: #5A5A5A;}
+.support_wrap ul li a:hover{color: #006839;}
+.footer_btm_wrap {display: flex; flex-wrap: wrap; flex-direction: column; gap: 4px; color: #006839;}
+.footer_btm_wrap .contents_title_xxsmall {font-family: "minerma"; font-weight: 400;}
