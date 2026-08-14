@@ -23,7 +23,7 @@ header {
 .gnb { position: absolute; left: 260px; top: 0; } 
 .gnb ul { display: flex; flex-wrap: wrap; gap: 40px; } 
 .gnb ul li a { display: flex; flex-wrap: wrap; align-items: center; height: 100px; transition: .3s; color: #fff; } 
- .gnb ul li a:hover { color: #a2d39f; } 
+.gnb ul li a:hover { color: #a2d39f; } 
 
 
 .util_menu { 

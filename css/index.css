@@ -130,7 +130,7 @@ header {
 .hair_box {
     display: flex; flex-direction: column; gap: 24px;
 }
-.hair_box_img { width: 432px; height: 464px; }
+.hair_box_img { width: 100%; height: auto; }
 
 /* 캐러셀 하단 진행률 바 */
 .hair_scrollbar {
